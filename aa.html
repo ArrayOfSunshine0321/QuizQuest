@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>button{
+    position: relative;
+    margin-top: 0;
+    transform: translate(-0%, -50%);
+    top: 76%;
+    left: 46%; 
+    height: 45px;
+    border: none;
+    width: 100px;
+    font-size: 14px;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button::after{
+    content: '';
+    position:absolute;
+    height: 50px;
+    width: 110px;
+    border-radius: 1000px;
+    background-image: linear-gradient(to bottom right, #008cffc4, #e100ffc3);
+    z-index: -1;    
+}</style>
+ <button>Get Started</button>
+</body>
+</html>

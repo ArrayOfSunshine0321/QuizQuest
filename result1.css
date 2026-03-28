@@ -1,0 +1,67 @@
+html {
+      font-family:'Segoe UI';
+  }
+.content {
+    animation: fade-in 0.5s ease-out; /* Fade-in animation for content */
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body{
+      background-image: url("10213790.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      
+      color: rgb(0, 0, 0);
+}
+.content p{
+    font-size: 63px;
+    font-family: cursive;
+    width: 80%;
+    height: 230px;
+    margin:100px auto;
+    margin-bottom: 10px;
+    padding-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+    backdrop-filter: blur(50px);
+    border: 1px solid #00000000;
+    border-radius: 20px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(0, 0, 0, 0.361), 0 0 5px rgba(0, 0, 0, 0.368);
+    background-color: #00000080;
+    box-shadow: 10px 3px 15px rgba(0, 0, 0, 0.4), -10px 3px 20px rgba(0, 0, 0, 0.4);
+}
+
+.content button {
+    margin-top: 5px;
+    margin-left: 570px;
+    height: 50px;
+    width: 110px;
+    border-radius: 1000px;
+    background-color:rgba(32, 32, 32, 0.518);
+    color: whitesmoke;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+button:hover {
+    color: #ffffff ;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.468);
+    /*box-shadow: 1px 1px 5px whitesmoke, -1px 1px 5px whitesmoke, 1px 1px 5px whitesmoke, 1px -1px 5px whitesmoke, -1px -1px 5px whitesmoke;*/
+    box-shadow: 1px 1px 10px #000000b4, -1px 1px 100px #0b0b0bac;
+}

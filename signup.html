@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="trioverse_logo-removebg-preview.ico">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="signup.css">
+    <script src="script1.js" defer></script>
+    <title>Signup</title>
+</head>
+<body>
+<video autoplay muted loop>
+  <source src="vv.mp4" type="video/mp4" >
+</video>
+
+ 
+<div class="wrapper">
+    <h1>Signup</h1>
+    <p id="error-message"></p>
+    <form id="form">
+    
+    <div>
+        <label for="firstname-input">
+            <img src="user.png" id="user" alt="User icon"> 
+        </label>
+        <input type="text" id="firstname-input" placeholder="Firstname" required>
+    </div>
+    <div>
+        <label for="email-input">
+            <span>@</span>
+        </label>
+        <input type="email" id="email-input" placeholder="Email" required>
+    </div>
+    <div>
+        <label for="password-input">
+            <img src="lock.png" id="lock" alt="Lock icon"> 
+        </label>
+        <input type="password" id="password-input" placeholder="Password" required>
+    </div>
+    
+    <button type="submit">Signup</button>
+
+    </form>
+    <p>Already have an Account?<a href="login.html"> Login</a></p>
+
+    <a href="Home.html" class="backbtn" aria-label="Back to home">
+        <img src="back.png" alt="Back">
+    </a>
+</div>
+
+<script src="home.js"></script>
+</body>
+</html>

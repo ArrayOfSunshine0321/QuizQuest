@@ -1,0 +1,206 @@
+@import url('https://fonts.cdnfonts.com/css/trotes');
+html {
+      font-family:'Segoe UI';
+      height: 100%;
+  }
+view-transition::view-transition-old(root) {
+    animation: fade-out 0.2s ease-out forwards;
+}
+
+body{
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      min-height: 100vh;
+      color: whitesmoke;
+} 
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:-100;
+}
+.content {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    animation: fade-in 0.5s ease-out; /* Fade-in animation for content */
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    align-items: center;
+    z-index: 99;
+}
+nav a{
+   color: #fff;
+   text-decoration: none;
+   font-weight: 500;
+   margin-left: 38px;
+   font-size: 18px;
+ }
+.logo {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 550px;
+    font-family: trotes;
+    letter-spacing: 1.5px;
+
+}
+.logo:hover {
+    text-shadow: 1px 1px 10px #214173, -1px 1px 30px #13233e;
+}
+.user-auth{
+    margin-left: 40px;
+}
+ @font-face {
+  font-family: "trotes";
+  src: url("Trotes.ttf");
+}
+
+.user-auth .login-btn-modal{
+   display: inline-block;
+   padding: 10px 20px;
+   background: transparent;
+   border: 2px solid #fff;
+   border-radius: 40px;
+   font-size: 16px;
+   color: #fff;
+   font-weight: 700;
+   text-decoration: none;
+   cursor: pointer;
+   transition: .5s;
+ }
+.login-btn-modal:hover{
+    background: #fff;
+    color: #214173;
+    font-weight: 700;
+}
+ }
+
+
+nav a.active  {
+    text-decoration: underline; /* Active tab styling */
+}
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box {
+    border: 2px whitesmoke;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.3);
+    display: inline-block;
+    padding: 15px;
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.box a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.box {
+    padding: 15px;
+    height: 170px;
+    width: 18%;
+}
+.box-img{
+    height: 130px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box-img.movies { background-image: url('22.png'); }
+.box-img.geo { background-image: url('geo.jpeg'); }
+.box-img.sport { background-image: url('sp.png'); }
+.box-img.ad { background-image: url('28.png'); }
+.box-img.gk { background-image: url('gk.jpg'); }
+.box-img.history { background-image: url('27.png'); }
+.box-img.atlas { background-image: url('23.png'); }
+.box-img.music { background-image: url('music.png'); }
+.box-img.tech { background-image: url('26.png'); }
+.box-img.invent { background-image: url('in.jpg'); }
+.box-img.brands { background-image: url('brand.jpg'); }
+.box-img.literature { background-image: url('lit.png'); }
+.box-img.bio { background-image: url('bio.png'); }
+.box-img.cartoon { background-image: url('cartoon.png'); }
+.box-img.chem { background-image: url('chem.jpg'); }
+.box p{
+    padding-top: 8px;
+    margin:0;
+}
+.box_11 {
+    font-size: 23px;
+}
+.box_16, .box_17, .box_18{
+    justify-content: flex-start;
+}
+
+.footer {
+    width:100%;
+    background-color: #030b18b8;
+    padding-top: 40px;
+    font-family: 'Ysabeau';
+    bottom: 0;
+    position: relative;
+    left: 0;
+}
+h3{
+    font-size: 35px;
+}
+
+.contactinfo {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 100px;
+    font-family: 'Ysabeau';
+    color: whitesmoke;    
+}
+
+
+.copyright {
+    color: whitesmoke;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.copyright-main {
+   padding-left: 100px;
+    align-content: center;
+    vertical-align: middle;
+    padding-bottom: 40px;
+
+}
+
+.footer-hr {
+  width: 95px;
+  margin-left: 105px;
+}

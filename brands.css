@@ -1,0 +1,106 @@
+html {
+      font-family:'Segoe UI';
+  }
+.content {
+    animation: fade-in 0.5s ease-out; /* Fade-in animation for content */
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#quiz-container {
+    transition: opacity 0.5s;
+}
+.fade-out {
+    opacity: 0;
+}
+.fade-in {
+    opacity: 1;
+}
+body{
+      background-image: url('4524116.jpg');
+      background-attachment: fixed;
+      background-size: 100%;
+      color: rgb(0, 0, 0);
+}
+#quiz-container {
+    width: 90%;
+    height: 50%;
+    margin:60px auto;
+    text-align: center;
+    padding-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #00000071;
+    backdrop-filter: blur(8px);
+    box-shadow: 5px 1px 15px rgba(0,0,0,0.4), -5px 1px 20px rgba(0, 0, 0, 0.4);
+}
+#question {
+    padding-top:  120px;
+    font-size: 35px;
+    color: whitesmoke;
+}
+#answers {
+    list-style: none;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 50px;
+     /*  letter-spacing: 1px;*/
+     color: whitesmoke;
+     margin-top: 30px;
+     width: 60%;  /*Adjust container width as needed */
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 24px;
+     padding-left: 0;
+     padding: 10px;
+     text-align: center;
+     cursor: pointer;
+     display: flex; /* Centers content within each option div */
+     align-items: center;
+     justify-content: center;
+     min-height: 70px;  /*Ensures sufficient space for the options*/
+}
+
+p {
+    color: whitesmoke;
+    font-size: 18px;
+}
+#Submit {
+    margin-top: 15px;
+    height: 50px;
+    width: 110px;
+    border-radius: 1000px;
+    background-color:transparent;
+    color: whitesmoke;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+
+#Submit:hover{
+    color: #ffffff ;
+    font-weight: bolder;
+    background-color: #011c3095;
+    /*box-shadow: 1px 1px 5px whitesmoke, -1px 1px 5px whitesmoke, 1px 1px 5px whitesmoke, 1px -1px 5px whitesmoke, -1px -1px 5px whitesmoke;*/
+    box-shadow: 1px 1px 10px #ffffff46, -1px 1px 100px #ffffff46;
+}
+
+
+
+.backbtn{
+    background: transparent;
+    border: none;
+    position: fixed;
+    left: 10px;
+    bottom: 40px;
+}
+.backbtn img {
+    height: 45px;
+    width: 45px;
+}

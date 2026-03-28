@@ -1,0 +1,181 @@
+html {
+    font-family: 'Segoe UI';
+      height: 100%;
+  }
+body{
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      min-height: 100vh;
+      color: whitesmoke;
+}  
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:-100;
+}
+.body-wrapper{
+    position: relative;
+    min-height: 100vh;
+}
+.content {
+  margin-top: 20px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 1px 1px 5px #000000, -1px 1px 100px #000000, 1px -1px 5px #000000, 1px 1px 100pc #000000;
+}
+
+.content{
+    padding-bottom: 2.5rem;
+}
+.content {
+    animation: fade-in 0.8s ease-in-out; /* Fade-in animation for content */
+}
+@keyframes fade-in {
+    from {
+    opacity: 0;
+    
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-size: 65px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-weight: 50;
+  font-family: "Trotes";
+  letter-spacing: 3px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    align-items: center;
+    z-index: 99;
+}
+nav a{
+   color: #fff;
+   text-decoration: none;
+   font-weight: 500;
+   margin-left: 38px;
+   font-size: 18px;
+ }
+ @font-face {
+  font-family: "trotes";
+  src: url("Trotes.ttf");
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 550px;
+    font-family: trotes;
+    letter-spacing: 1.5px;
+
+}
+.logo:hover {
+    text-shadow: 1px 1px 10px #214173, -1px 1px 30px #13233e;
+        
+
+}
+.user-auth{
+    margin-left: 40px;
+}
+
+.user-auth .login-btn-modal{
+   display: inline-block;
+   padding: 10px 20px;
+   background: transparent;
+   border: 2px solid #fff;
+   border-radius: 40px;
+   font-size: 16px;
+   color: #fff;
+   font-weight: 700;
+   text-decoration: none;
+   cursor: pointer;
+   transition: .5s;
+ }
+.login-btn-modal:hover{
+    background: #fff;
+    color: #214173;
+    font-weight: 700;
+}
+nav a.active {
+    text-decoration: underline;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+ @font-face {
+  font-family: "trotes";
+  src: url("Trotes.ttf");
+}
+.para {
+  font-size: 20px;
+  font-family: 'Ysabeau';
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+    width:100%;
+    background-color: #030b18b8;
+    padding-top: 40px;
+    font-family: 'Ysabeau';
+    bottom: 0;
+    position: relative;
+    left: 0;
+}
+
+.contactinfo {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 100px;
+    font-family: 'Ysabeau';
+    color: whitesmoke;    
+}
+h3{
+    font-size: 37px;
+}
+
+.footer-hr {
+  width: 95px;
+  margin-left: 105px;
+}
+
+.copyright {
+    color: whitesmoke;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.copyright-main {
+   padding-left: 100px;
+    align-content: center;
+    vertical-align: middle;
+    padding-bottom: 40px;
+
+}
+
